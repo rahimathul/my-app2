@@ -1,0 +1,70 @@
+/* Parent container styles */
+.parent {
+    display: flex;
+    height: 100vh;
+    background-color: #26db8d;
+    overflow:auto;
+}
+
+/* Left-side navigation (child1) styles */
+.child1 {
+    width: 250px;
+    background-color: #333333;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: rgb(238, 40, 40);
+    font-family: Arial, sans-serif;
+}
+
+/* Buttons in the navigation */
+.child1 button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #444;
+    color: black(120, 20, 90);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+.child1 button:hover {
+    background-color: #611313;
+    overflow: auto;
+}
+
+/* "My Website" header styles */
+.My {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Right-side content (child2) styles */
+.child2 {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgb(66, 21, 163);
+    overflow-y: auto;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #1fde6b;
+    margin: 15px 0;
+}
+
+/* Logout button at the end of the list */
+button[routerLink="/login"] {
+    background-color: #6d4fd9;
+    color: rgb(176, 17, 17);
+}
+
+button[routerLink="/login"]:hover {
+    background-color: #3f876e;
+}

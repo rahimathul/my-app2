@@ -1,0 +1,27 @@
+<p>bank works!</p>
+<table border="">
+    <thead>
+        <tr>
+            <th>account_name</th>
+            <th>available_balance</th>
+            <th>account_number</th>
+            <th>city</th>
+            <th>profie_picture</th>
+            <th>id</th>
+            
+        </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let bank of bank">
+        <td>{{bank.account_name}}</td>
+        <td>{{bank.account_number}}</td>
+        <td>{{bank.available_balance}}</td>
+        <td>{{bank.city}}</td>
+        <td> 
+            <img src="{{bank.image}}" alt="" height="100px" width="100px">
+        </td>
+        <td>{{bank.id}}</td>
+       </tr>
+</tbody>
+</table>
+

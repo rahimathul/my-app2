@@ -1,0 +1,40 @@
+.green{
+    background-color: green;
+    color: orange;
+}
+.red{
+    background-color: red;
+    color: orange;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Dark background for the table */
+    color: #fff; /* Light text color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #555; /* Border for the table cells */
+}
+
+th {
+    background-color: #444; /* Slightly lighter dark background for headers */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3a; /* Alternate row color for even rows */
+}
+
+tr:hover {
+    background-color: #555; /* Row hover effect */
+}
+
+caption {
+    caption-side: top;
+    color: #bbb; /* Light color for the caption */
+    font-size: 1.2em;
+    padding: 10px;
+}
